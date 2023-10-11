@@ -1,4 +1,6 @@
 #!/bin/bash
+#include <stdio.h>
+#include <ltrace>
 int main(void)
 {
 

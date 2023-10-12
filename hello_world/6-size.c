@@ -1,11 +1,8 @@
 #include <stdio.h>
 /**
- * sizeof evaluates the size of various types
- * char charType;
- * int intType;
- * long int longintType;
- * long long int longlongintType;
- * float floatType;
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

@@ -1,11 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * sizeof evaluates the size of various types
  */
 int main()
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	char charType;
+	int intType;
+	long int longintType;
+	long long int 2longintType;
+	float floatType;
+
+	printf("Size of a char: %lu byte(s)\n", sizeof(charType));
+	printf("Size of a int: %lu byte(s)\n", sizeof(intType));
+	printif("Size of a long int: %lu byte(s)\n", sizeof(longintType));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(2longintType));
+	printf("Size of a float: %lu byte(s)\n", sizeof(floatType));
 	return (0);
 }

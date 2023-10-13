@@ -7,8 +7,8 @@
  */
 int  main(void)
 {
-int len=strlen("and that piece of art is useful" - Dora Korpar, 2015-10-19\n");
+int len=strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
-write(1,"and that piece of art is useful" - Dora Korpar, 2015-10-19\n",%d,len); 
+write(1,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",%d,len); 
 return (1);
 }

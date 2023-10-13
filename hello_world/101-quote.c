@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void  main()
+int  main()
 {
 	char *s="and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"; 
 	while (*s) putchar(*s++);

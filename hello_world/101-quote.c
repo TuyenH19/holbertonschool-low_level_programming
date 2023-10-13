@@ -7,7 +7,7 @@
  */
 int  main(void)
 {
-char t[100]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-scanf("%c", t[100]); 
+char str[100]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+scanf("%s\n",str); 
 return (1);
 }

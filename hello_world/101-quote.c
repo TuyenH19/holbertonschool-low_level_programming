@@ -7,7 +7,7 @@
  */
 int  main(void)
 {
-char str[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(1, str, strlen(str));
+char st[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(1, st, strlen(st));
 return (1);
 }

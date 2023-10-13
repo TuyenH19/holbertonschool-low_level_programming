@@ -7,8 +7,7 @@
  */
 int  main(void)
 {
-char string = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-int len = strlen(string);
-write(1,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",len); 
+char t[100]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(1,t[100],strlen(t[100])); 
 return (1);
 }

@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void) // main function
+int main(void)
 {
 char base_16;
 

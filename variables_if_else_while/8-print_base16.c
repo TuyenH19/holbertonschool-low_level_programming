@@ -1,9 +1,13 @@
 #include <stdio.h>
+
 /*
  * main - Entry point
  *
+ * Description: 'Hexadecimal'
+ *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 char base_16;

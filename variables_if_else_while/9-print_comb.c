@@ -12,11 +12,11 @@ combi = 48;
 while (combi <= 57)
 {
 	putchar(combi);
+	if (combi == 57)
+		break;
 	putchar(',');
 	putchar(' ');
 	combi++;
 }
-putchar('\n');
-
 return (0);
 }

@@ -2,8 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /* Positive anything is better than negative nothing*/
-/* betty style doc for function main goes there 
- * This is the main function
+
+/* betty style doc for function main goes there */ 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

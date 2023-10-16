@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: 'Hexadecimal'
@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main(void) // main function
 {
 char base_16;
 

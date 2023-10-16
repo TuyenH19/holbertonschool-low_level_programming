@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* Positive anything is better than negative nothing*/
 
-/* betty style doc for function main goes there */ 
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *

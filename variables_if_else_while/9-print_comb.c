@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
 */
 
-int main(void) /* Main function */
+int main()
 {
 int combi;
 

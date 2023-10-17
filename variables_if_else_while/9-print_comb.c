@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-/*
- * main - Entry point
- *
- * Description: Possible combination of one digit
+/**
+ * main - Possible combination off one digit
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
+
 {
 int combi;
 

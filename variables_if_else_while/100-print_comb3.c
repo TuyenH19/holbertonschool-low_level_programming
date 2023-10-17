@@ -17,7 +17,7 @@ while (x <= 57)
 	while (y <= 57)
 	{
 		putchar(x);
-	 	putchar(y);
+		putchar(y);
 		if (x == 56 && y == 57)
 		{
 			putchar('\n');
@@ -27,7 +27,7 @@ while (x <= 57)
 		putchar(',');
 		putchar(' ');
 	}
-	x++;	
-} 
+	x++;
+}
 return (0);
 }

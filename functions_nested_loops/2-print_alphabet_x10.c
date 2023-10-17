@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * Function name: print_alphabet_x10
+ * Description function: print_alphabet_x10 from _putchar
  *
  * Return void
 */
 
 void  print_alphabet_x10(void)
+	
 {
 	char c;
 	int i = 0;

@@ -4,11 +4,11 @@
  * main - Entry point
  *
  * Description: Possible combination of one digit
+ *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
-
 {
 int combi;
 

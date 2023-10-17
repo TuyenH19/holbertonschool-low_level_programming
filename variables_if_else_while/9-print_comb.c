@@ -14,7 +14,7 @@ while (combi <= 57)
 	putchar(combi);
 	if (combi == 57)
 	{
-		putchar('\0');
+		putchar('\n');
 		break;
 	}
 	putchar(',');

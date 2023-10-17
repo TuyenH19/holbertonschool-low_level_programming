@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - Create function print_alphabet_x10
+ * Function name: print_alphabet_x10
  *
- * Return: Always 0 (Success)
- */
+ * Return void
+*/
 
 void  print_alphabet_x10(void)
 {

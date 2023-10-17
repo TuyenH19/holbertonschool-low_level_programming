@@ -1,10 +1,10 @@
+#include "main.h"
+
 /**
  * main - Print alphabet using _putchar
  *
  * Return: Always 0 (Success)
 */
-
-#include "main.h"
 
 void print_alphabet(void)
 {

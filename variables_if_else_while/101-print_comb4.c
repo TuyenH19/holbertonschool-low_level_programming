@@ -1,11 +1,14 @@
 #include <stdio.h>
-/*
+/**
  * main - Combination of three digits
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
+
 {
+
 int x;
 int y;
 int z;

@@ -13,10 +13,10 @@ int z;
 x = 48;
 while (x <= 55)
 {
-	y = x+1;
+	y = x + 1;
 	while (y <= 56)
 	{
-		z = y+1;
+		z = y + 1;
 		while (z <= 57)
 		{
 			putchar(x);
@@ -31,7 +31,7 @@ while (x <= 55)
 			putchar(' ');
 			z++;
 		} y++;
-	}x++;	
+	} x++;
 }
 
 return (0);

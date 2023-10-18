@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10: Create function print_alphabet_x10
+ * print_alphabet_x10 - Create function print_alphabet_x10
  *
- * Param c for char
- * Param i for number of line
+ * @c : char
+ * @i : number of line
  * Return 10 lines of alphabet
  */
 

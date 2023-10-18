@@ -4,7 +4,7 @@
  * print_sign - print a sign of a nnumber
  *
  * @n: value of input
- * Return: 1 and print + for n is greater than 0, 0 and print 0 for n equal 0, -1 and print - for n equal other
+ * Return: +1 for n is greater than 0, 00 for n equal 0, -1 for other
  */
 
 int print_sign(int n)

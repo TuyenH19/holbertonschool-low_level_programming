@@ -3,8 +3,6 @@
 /**
  * print_alphabet_x10 - Create function print_alphabet_x10
  *
- * @c : char
- * @i : number of line
  * Return 10 lines of alphabet
  */
 

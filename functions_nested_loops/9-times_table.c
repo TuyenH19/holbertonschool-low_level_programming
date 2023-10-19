@@ -12,29 +12,42 @@ void times_table(void)
 {
 	int a, b, times;
 
-	a = 0;;
-	while (a <= 9)
+	a = 1;
+	while (a < 10)
 	{
-		b = 0;
-		while (b <= 9)
+		b = 1;
+		while (b < 10)
 		{
-			times = a* b;
-			if ( times >= 10)
-			{
-				_putchar(times / 10 + '0');
-				_putchar(times % 10 + '0');
-				_putchar(',');
-				_putchar(' ');
-				b++;
-			}
+			times = a * b;
+
+			if ( a >= 1 && b == 1)
+				_putchar('0');
+				
 			else
-			{
-				_putchar(times + '0');
-				_putchar(',');
-                                _putchar(' ');
-                                b++;
-			}
-		}
+				 if ( a == 1 && b != 1 )
+				 {	 _putchar(',');
+					 _putchar(' ');
+					 _putchar(' ');
+					 _putchar('0');
+					 b++;
+				 }
+				else
+					if (times >= 10 )
+					{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(times / 10 + '0');
+					_putchar(times % 10 + '0');
+					b++;						}
+					else
+					{		
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(times + '0');
+					b++;
+					}
+		}		
 		_putchar('\n');
 		a++;
 	}

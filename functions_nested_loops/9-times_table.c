@@ -3,8 +3,8 @@
 /**
  * times_table - print the 9 times table that starts with 0
  *
- * @a: number of columns
- * @b: number of rows
+ * @ a: number of the columns
+ * @ b: number of rows
  * Return: tabke of 9 times that starts with 0
  */
 

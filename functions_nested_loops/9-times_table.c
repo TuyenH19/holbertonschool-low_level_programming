@@ -24,29 +24,32 @@ void times_table(void)
 				_putchar('0');
 				
 			else
+			{
 				 if ( a == 1 && b != 1 )
 				 {	 _putchar(',');
 					 _putchar(' ');
 					 _putchar(' ');
 					 _putchar('0');
-					 b++;
 				 }
 				else
+				{ 
 					if (times >= 10 )
 					{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(times / 10 + '0');
 					_putchar(times % 10 + '0');
-					b++;						}
+					}
 					else
 					{		
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(times + '0');
-					b++;
 					}
+				}
+			}
+			b++;
 		}		
 		_putchar('\n');
 		a++;

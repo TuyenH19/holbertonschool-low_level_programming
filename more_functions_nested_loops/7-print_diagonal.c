@@ -9,15 +9,19 @@
 
 void print_diagonal(int n)
 {
-	int i;
+	int space, line;
 
-	if (n >= 1)
+	if (n > 0)
 	{	
-		for (i = 1; i <= n; i++)
+		for (line = 0; line < n; line++)
 		{
+			for (space = 0; space < line; space++)
+				_putchar(' ');
 			_putchar('\\');
-		} _putchar('\n');
+			_putchar('\n');
+		}
 	}
 	else
 		_putchar('\n');
+
 }

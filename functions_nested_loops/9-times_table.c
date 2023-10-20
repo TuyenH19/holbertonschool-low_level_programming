@@ -23,13 +23,15 @@ void times_table(void)
 			if (a >= 0 && b == 0)
 				_putchar('0');
 			else
-			{	if (a == 0 && b != 0)
+			{	
+				if (a == 0 && b != 0)
 				{	 _putchar(',');
 					 _putchar(' ');
 					 _putchar(' ');
 					 _putchar('0');
 			} else
-				{	if (times >= 10)
+				{	
+					if (times >= 10)
 					{	_putchar(',');
 						_putchar(' ');
 						_putchar(times / 10 + '0');

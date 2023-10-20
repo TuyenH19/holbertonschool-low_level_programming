@@ -12,20 +12,20 @@ void times_table(void)
 {
 	int a, b, times;
 
-	a = 1;
+	a = 0;
 	while (a < 10)
 	{
-		b = 1;
+		b = 0;
 		while (b < 10)
 		{
 			times = a * b;
 
-			if ( a >= 1 && b == 1)
+			if ( a >= 0 && b == 0)
 				_putchar('0');
 				
 			else
 			{
-				 if ( a == 1 && b != 1 )
+				 if ( a == 0 && b != 0 )
 				 {	 _putchar(',');
 					 _putchar(' ');
 					 _putchar(' ');

@@ -6,13 +6,12 @@
  *
  * Return: a diagonal line of character \
  */
-
 void print_diagonal(int n)
 {
 	int space, line;
 
 	if (n > 0)
-	{	
+	{
 		for (line = 0; line < n; line++)
 		{
 			for (space = 0; space < line; space++)

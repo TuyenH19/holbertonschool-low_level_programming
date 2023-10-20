@@ -1,5 +1,6 @@
-all 
-
-CC = gcc # Compiler to be used
+CC = gcc		# Compiler to be used
 
 SRC = wildcard *.c
+
+all: $(SRC)
+       $(CC) $(SRC) -o school	

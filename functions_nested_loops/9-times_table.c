@@ -20,20 +20,19 @@ void times_table(void)
 		{
 			times = a * b;
 
-			if ( a >= 0 && b == 0)
+			if (a >= 0 && b == 0)
 				_putchar('0');
-				
 			else
 			{
-				 if ( a == 0 && b != 0 )
-				 {	 _putchar(',');
+				if (a == 0 && b != 0)
+				{	 _putchar(',');
 					 _putchar(' ');
 					 _putchar(' ');
 					 _putchar('0');
-				 }
+				}
 				else
-				{ 
-					if (times >= 10 )
+				{
+					if (times >= 10)
 					{
 					_putchar(',');
 					_putchar(' ');
@@ -41,7 +40,7 @@ void times_table(void)
 					_putchar(times % 10 + '0');
 					}
 					else
-					{		
+					{	
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
@@ -50,7 +49,7 @@ void times_table(void)
 				}
 			}
 			b++;
-		}		
+		}
 		_putchar('\n');
 		a++;
 	}

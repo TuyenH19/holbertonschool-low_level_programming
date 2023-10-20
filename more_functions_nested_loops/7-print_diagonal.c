@@ -4,8 +4,8 @@
  * print_diagonal - draw a diagonal line
  * @n: number of times for character \ to print
  *
- * Return: a diagonal line of character \
  */
+
 void print_diagonal(int n)
 {
 	int space, line;

@@ -1,0 +1,5 @@
+all 
+
+CC = gcc # Compiler to be used
+
+SRC = wildcard *.c

@@ -1,13 +1,19 @@
 #include <stdio.h>
 
+/**
+ * main - Print from 1 to 100 with special condition
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int num;
 
 	for (num = 1; num <= 100; num++)
-	{	
+	{
 		if (num % 3 == 0 && num % 5 == 0)
-		{	
+		{
 			printf("FizzBuzz ");
 			continue;
 		}

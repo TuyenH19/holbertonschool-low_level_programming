@@ -16,9 +16,14 @@ int main(void)
 			printf("Fizz ");
 			continue;
 		}
-		if (num % 3 != 0 && num % 5 == 0)
+		if (num % 3 != 0 && num % 5 == 0 && num != 100)
 		{
 			printf("Buzz ");
+			continue;
+		}
+		if (num == 100)
+		{
+			printf("Buzz");
 			continue;
 		}
 		printf("%d ", num);

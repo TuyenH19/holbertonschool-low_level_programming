@@ -2,8 +2,6 @@
 
 /**
  * main - print all possible combinations of two two-digit numbers
- * @num1: first two-digit number
- * @num2: second two-digit number
  *
  * Return: Always 0
  */

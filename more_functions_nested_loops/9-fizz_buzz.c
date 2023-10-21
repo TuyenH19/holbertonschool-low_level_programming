@@ -6,7 +6,6 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{	
-		printf("%d ", num);
 		if (num % 3 == 0 && num % 5 == 0)
 		{	
 			printf("FizzBuzz ");
@@ -22,6 +21,7 @@ int main(void)
 			printf("Buzz ");
 			continue;
 		}
+		printf("%d ", num);
 	}
 	printf("\n");
 	return (0);

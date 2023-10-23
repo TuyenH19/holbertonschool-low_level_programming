@@ -2,6 +2,7 @@
 
 /**
  * print_rev - print a string in reverse followed by a new line
+ * _strlen - to print the length of a string
  * @s: string input
  *
  * Return: Nothing.
@@ -24,10 +25,10 @@ int _strlen(char *s)
 
 void print_rev(char *s)
 {
-	int len = _strlen(s); 
+	int len = _strlen(s);
 	char *end = s + len - 1;
-	
-	while ( *end != 0)
+
+	while (*end != 0)
 	{
 		_putchar(*end);
 		end--;

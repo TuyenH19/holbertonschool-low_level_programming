@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_rev - print a string in reverse followed by a new line
  * _strlen - to print the length of a string
  * @s: string input
  *
- * Return: Nothing.
+ * Return: integer
  */
 
 int _strlen(char *s)
@@ -22,7 +21,12 @@ int _strlen(char *s)
 	}
 	return (len);
 }
-
+/**
+ * print_rev - print a string in reverse followed by a new line
+ * @s: string input
+ *
+ * Return: Nothing.
+ */
 void print_rev(char *s)
 {
 	int len = _strlen(s);

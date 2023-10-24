@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - print every character of a string 
+ * puts2 - print every character of a string
  * @str: string input
  *
  * Return: nothing.
@@ -14,7 +14,7 @@ void puts2(char *str)
 	while (str[index] != '\0')
 	{
 		if (index > 0)
-		{	
+		{
 			index = index + 1;
 		}
 		_putchar(*(str + index));

@@ -17,7 +17,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[index] != s2[index])
 			break;
-		else 
+		if (s1[index] == s2[index])
 			index++;
 	}
 	diff = s1[index] - s2[index];

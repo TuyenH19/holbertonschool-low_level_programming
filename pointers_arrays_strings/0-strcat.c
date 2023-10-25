@@ -10,9 +10,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int index; 
+	int index;
 	int len_dest = 0;
-	
+
 	while (dest[len_dest] != '\0')
 		len_dest++;
 	for (index = 0; src[index] != '\0'; index++)

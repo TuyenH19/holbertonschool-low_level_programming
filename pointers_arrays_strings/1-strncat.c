@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strnchat - concatenate two strings with n characters
+ * _strncat - concatenate two strings with n characters
  * @dest: string destination
  * @src: string source
+ * @n: number of character
  *
  * Return: string destination
  */

@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * atoi - convert a string to an integer
+ * _atoi - convert a string to an integer
  * @s: string input
  *
  * Return: integer

@@ -15,16 +15,19 @@ char *_strdup(char *str)
 	int i, j;
 	char *s;
 
+	if (!str)
+		return (NULL);
+
 	for (i = 0; str[i] != '\0'; i++)
 		i++;
 
-	s = malloc(i + 1);
+	s = malloc((sizeof(char) * i) + 1);
 
 	if (!s)
 		return (NULL);
 	for (j = 0; j <= i + 1; j++)
 	{
-		s[j] = str[j];
+		*(s + j) = *(str + j);
 	}
 	return (s);
 }

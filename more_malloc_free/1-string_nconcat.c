@@ -3,7 +3,7 @@
 
 /**
  * string_nconcat - concatenate 2 strings
- * @s1: strng1
+ * @s1: string1
  * @s2: string2
  * @n: n first bytes of s2
  *
@@ -16,9 +16,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *str = NULL;
 
 	if (s1 == NULL)
-		return ("");
+		s1 = "";
 	if (s2 == NULL)
-		return ("");
+		s2 = "";
 
 	for (len1 = 0; s1[len1] != '\0'; len1++)
 		continue;

@@ -6,7 +6,7 @@
  * print_numbers - function to print number with separator
  * @separator: string between numbers
  * @n: number of integers
- * @...: variable number of parameters
+ * ...: variable number of parameters
  *
  * Returns: numbers with separators
 */

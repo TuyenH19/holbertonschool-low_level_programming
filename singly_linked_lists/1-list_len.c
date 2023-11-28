@@ -12,8 +12,6 @@ size_t list_len(const list_t *h)
 {
 	int count_node = 0;
 
-	if (h == NULL)
-		return (-1);
 	while (h != NULL)
 	{
 		if (h->str == NULL)

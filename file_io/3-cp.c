@@ -33,6 +33,7 @@ int main(int argc, char **argv)
 	int src, dest;
 	ssize_t len, nwr;
 	char *buffer[1024];
+	mode_t old_mask = umask(0);
 
 	if (argc != 3)
 	{
@@ -44,6 +45,7 @@ int main(int argc, char **argv)
 	dest = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	error_file(src, dest, argv);
 
+	umask(old_mask);
 	len = read(src, buffer, 1024);
 	while (len > 0)
 	{

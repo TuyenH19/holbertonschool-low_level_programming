@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 {
 	int src, dest;
 	ssize_t len, nwr;
-	char buffer[1024];
+	char *buffer[1024];
 
 	if (argc != 3)
 	{
@@ -49,11 +49,11 @@ int main(int argc, char **argv)
 	{
 		nwr = write(dest, buffer, len);
 		if (nwr == -1 || nwr != len)
-			error_file(-1, 0, argv);
+			error_file(0, -1, argv);
 		len = read(src, buffer, 1024);
 	}
 	if (len == -1)
-		error_file(0, -1, argv);
+		error_file(-1, 0, argv);
 
 	if (close(src) == -1)
 	{

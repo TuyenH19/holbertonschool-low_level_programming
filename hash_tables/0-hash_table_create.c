@@ -4,11 +4,11 @@
 /**
  * hash_table_create - create hash file
  * @size: size of the array
- * Return: pointer to newly created hash table
+ * Return: pointer to newly created hash table or NULL if error
 */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	unsigned int index;
+	unsigned long int index;
 	hash_table_t *ht;
 
 	if (size == 0)
@@ -17,6 +17,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	ht = malloc(sizeof(hash_table_t));
 	if (ht == NULL)
 		return (NULL);
+		
 	ht->size = size;
 	ht->array = malloc(sizeof(hash_node_t *) * size);
 	if (ht->array == NULL)

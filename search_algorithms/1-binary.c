@@ -47,7 +47,7 @@ int binary_search_recursion(int *array, int left, int right, int value)
  * @left: the lowest index of the array
  * @right: the highest index of the array
  *
- * Return: index where value is located or -1 if not found
+ * Return: the index where value is located or -1 if not found
 */
 void print_array(int *array, int left, int right)
 {
